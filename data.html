@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+<body>
+    <ul>
+        <li data-id="1" data-email="rebecca.t.almeida@accenture.com">Rebecca Almeida</li>
+        <li data-id="2" data-email="rafaela.v.almeida@accenture.com">Rafaela Vitoria</li>
+        <li data-id="3" data-email="ruan.f.almeida@accenture.com">Ruan Almeida</li>
+    </ul>
+
+    <script>
+        document.querySelectorAll('li').forEach(liEl => {
+            console.log(liEl.dataset);
+        })
+    </script>
+</body>
+</html>
